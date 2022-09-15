@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+    
+
+
+    #titulo{  
+        
+        z-index: 2;
+        display: flex;
+        justify-content: center;
+        background: white;
+        width: 100%;
+        border: 1px solid white;
+        padding: 21px 0;
+       }
+
+    #contenido{
+    
+       width: 603px;
+       margin-inline: auto;
+    }
+
+       #contenido .foto{
+        margin-bottom: 45px;
+        width:  604px%;
+        border: 1px solid rgba(7, 7, 7, 0.24);
+        
+       }
+
+       #contenido .foto .images img{
+         width: 600px;
+       }
+
+       #contenido .foto .title
+       {
+        font-weight: bold;
+        padding: 10px 20px;
+        display: flex;
+       }
+
+       #contenido .foto .title .cicle button
+       {
+         
+    display: flex;
+    flex-direction: column;
+    margin-left: 464px;
+
+       }
+
+       #contenido .foto .title .cicle svg
+       {
+        width: 12px;
+        height: 12px;
+        background-color: white;
+       }
+       #contenido .foto .title .photo_profile img
+       {
+        width: 45px;
+       }
+        
+       #contenido .foto .title .details_pp .ubication h3{
+       font-size: smaller;}
+
+       #contenido .foto .details{
+        padding: 10px 20px;}
+
+       button{
+        border: none;
+       }
+
+       div.iconos img{
+         height: 23px;
+       }
+       div.iconos img.guardar{
+         margin-left: 28em;
+       }
+
+       div.pie{
+
+        margin-left: 19px;
+       }
+
+       .details span{
+        font-weight:bolder;
+       }
